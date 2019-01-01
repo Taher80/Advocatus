@@ -1,0 +1,616 @@
+
+/*  Start Navbar */
+.navbar-brand {
+    font-size: 25px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 ) !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-top: 20px
+}
+#bs-example-navbar-collapse-1{
+    padding-top: 10px
+}
+.navbar-right li{
+    padding-right: 10px;
+    padding-top: 10px
+}
+.navbar-default{
+    background-color: white;
+    margin-top: 23px;
+}
+.navbar-default .navbar-nav > li > a{
+    font-size: 18px;
+    font-weight: 10px;
+    font-family: "OpenSans";
+    color: rgb( 17, 17, 17 );
+    text-transform: uppercase;
+}
+/*  End Navbar */
+/* Start Slider */
+#carousel-example-generic{
+    background-image: url(../images/SuerasPic.png);
+    height: 1000px;
+    position: relative;
+}
+.carousel-inner img{
+    height: 1000px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    display: block;
+    max-width: 100%;
+    height: 1000px;
+}
+.heading-banner {
+    font-size: 65px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 255, 255, 255 );
+    line-height: 0.692;
+    text-align: left;
+    z-index: 18;
+  }
+@media screen and (min-width: 768px){
+    .heading-banner p{
+        padding-bottom: 93px;
+        font-size: 40px;
+    }
+}
+.heading-banner::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 70px;
+    float: left;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.carousel-caption p{
+    float: left
+}
+.btn-warning{
+    background-color: rgb( 232, 191, 93 );
+    margin-left: 300px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    float: right;
+    margin-left: -15px;
+    margin-top: 17px;
+    padding: 9px 34px 7px
+}
+.word{
+    font-size: 40px;
+    line-height: 1.3;
+}
+/* End Slider */
+/* Start Section About Us */
+.About-us::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 101px;
+    float: left;
+    margin-top: 29px;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.About-us{
+    font-size: 28px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.452; 
+    padding-top: 50px; 
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+}
+
+.About-us p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 102, 102, 102 );
+    line-height: 1.476;
+}
+.history{
+    display: inline-block;
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.3;
+}
+.his1{
+    padding-top: 10px; 
+    margin-bottom:10px
+}
+.row h3{
+    display: inline-block;
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.476;
+    margin-bottom: 0px;
+    
+}
+.exp1{
+    padding-top: 10px; 
+    margin-bottom:10px
+}
+.experience{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb( 102, 102, 102 );
+    line-height: 2.3;  
+}
+
+.num{
+    font-size: 21px;
+    font-family: "OpenSans";
+    color: rgb( 17, 17, 17 );
+    font-weight: bold;
+    line-height: 1.476; 
+    padding-right: 30px; 
+}
+
+/* End Section About Us */
+/*Start Section Practise Area*/
+.base{
+    background-color: rgb( 17, 17, 17 );
+    margin-top: 10px;    
+}
+.Practise-Area::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 118px;
+    margin-top: 26px;
+    float: left;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.Practise-Area .h1{
+    font-family: "OpenSans";
+    color: rgb( 255, 255, 255 );
+    line-height: 2.214;
+}
+.Practise-Area p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 185, 185, 185 );
+    line-height: 1.476;
+    padding-bottom: 30px;
+}
+.prac{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 255, 255, 255 );
+    line-height: 1.476;
+}
+.prac2{
+    margin-left: -58px;
+}
+.prac .h1{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 255, 255, 255 );
+    line-height: 1.476;
+}
+.prac p{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb( 255, 255, 255 );
+    line-height: 1.786;
+    padding-top: 10px;
+}
+.private{
+    -webkit-transform:translateX(132px);
+    -moz-transform:translateX(132px);
+    -o-transform:translateX(132px);
+    transform:translateX(132px);
+}
+.fa-2x{
+    -moz-transform: translate(-80px , 11px);
+    -o-transform: translate(-80px , 11px);
+    -webkit-transform: translate(-80px , 11px);
+    transform: translate(-80px , 11px);
+    color: #e8bf5d
+}
+
+/*End Section Practise Area*/
+/* Start Section Experience*/
+.prof::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 96px;
+    float: left;
+    margin-top: 28px;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.prof{
+    font-size: 28px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.452; 
+    padding-top: 50px;  
+}
+.prof p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 102, 102, 102 );
+    line-height: 1.476;
+}
+.img{
+    overflow: hidden;
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+
+.words p{
+    padding-bottom: 30px
+}
+p{
+    margin: 0 0 45px;
+}
+/*End Section Experience*/
+/*Start Section Our Clients*/
+.pic{
+    background-image: url(../images/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -oz-background-size: cover;
+    background-size: cover;      
+}
+.overlay{
+    background-color: rgb( 17, 17, 17 , 0.9);
+    width: 100%;
+    height: 100%;
+}
+.Our-Clients::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 118px;
+    margin-top: 26px;
+    float: left;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.Our-Clients .h1{
+    font-family: "OpenSans";
+    color: rgb( 255, 255, 255 );
+    line-height: 2.214;
+    margin-top: 55px;
+}
+.Our-Clients p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 185, 185, 185 );
+    line-height: 1.476;
+    padding-bottom: 30px;
+}
+.person{
+    -webkit-box-shadow: 15px 15px #e8bf5d;
+    -moz-box-shadow: 15px 15px #e8bf5d;
+    -oz-box-shadow: 15px 15px #e8bf5d;
+    box-shadow: 15px 15px #e8bf5d;
+    width: 338px;
+    height: 233px;
+    margin-bottom: 150px;
+}
+.idi{
+    
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb( 255, 255, 255 );
+    line-height: 2.214;
+    -moz-transform: translateY(-25px);
+    -o-transform: translateY(-25px);
+    -webkit-transform: translateY(-25px);
+    transform: translateY(-25px);
+}
+.fas-x4{
+    color:white;
+    -moz-transform: translate(-30px, 0px);
+    -o-transform: translate(-30px, 0px);
+    -webkit-transform: translate(-30px, 0px);
+    transform: translate(-30px, 0px);
+}
+.alon{
+    color: rgb( 255, 255, 255 );
+    line-height: 1.476;
+    color:white;
+    -moz-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+}
+/*End Section Our Clients*/
+/*Start Section Recent*/
+.prof::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 96px;
+    float: left;
+    margin-top: 28px;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.prof{
+    font-size: 28px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.452; 
+    padding-top: 50px;  
+}
+
+.prof p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 102, 102, 102 );
+    line-height: 1.476;
+}
+.tite{
+    overflow: hidden;
+    width: 365px;
+    height: 300px;
+    padding-top: 40px;
+}
+.made-by{
+    font-size: 20px;
+    font-family: "OpenSans";
+    color: rgb( 102, 102, 102 );
+}
+.desc{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb( 102, 102, 102 );
+    line-height: 2.214;
+    -moz-transform: translateY(-45px);
+    -o-transform: translateY(-45px);
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    padding-left: 0
+}
+.edits p{
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.pad{
+    padding-right: 120px;
+    font-size: 19px;
+    font-family: "FontAwesome";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.938;
+}
+.top{
+    margin-top: -100px;
+    padding-bottom: 50px;
+}
+p{
+    margin: 0 0 45px;
+}
+hr{
+    background-color: rgb( 232, 191, 93 );
+    width: 371px; 
+    margin-top: -50px;
+    height: 4px
+
+}
+/*End Section Recent*/
+/*Start Section Frequently*/
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb( 17, 17, 17 );   
+}
+.Our-Clients::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 118px;
+    margin-top: 26px;
+    float: left;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.freq .h1{
+    font-family: "OpenSans";
+    color: rgb( 255, 255, 255 );
+    line-height: 2.214;
+    margin-top: 55px;
+}
+.freq{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 185, 185, 185 );
+    line-height: 1.476;
+}
+.person{
+    -webkit-box-shadow: 15px 15px #e8bf5d;
+    -moz-box-shadow: 15px 15px #e8bf5d;
+    -oz-box-shadow: 15px 15px #e8bf5d;
+    box-shadow: 15px 15px #e8bf5d;
+    width: 338px;
+    height: 233px;
+    margin-bottom: 150px;
+}
+.photo{
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb( 17, 17, 17 );
+    line-height: 2.214;
+    border-radius: 3px;
+    background-color: rgb( 232, 191, 93 );
+    box-shadow: 0px 12px 40px 0px rgb( 216, 178, 87 );
+    padding: 39px 0px 0px 90px;
+    line-height: 2;
+    margin: 23px 0px 40px -20px;
+    -webkit-clip-path: polygon(5% 0, 82% 0, 82% 100%, 5% 100%);
+    clip-path: polygon(5% 0, 82% 0, 82% 100%, 5% 100%);
+    width: 620px;
+    height: 378px;
+}
+.hr{
+    background-color: rgb( 232, 191, 93 );
+    margin: 10px 0px 10px 0px;
+    border-width: 0px;
+    border-color: rgb( 232, 191, 93 );
+    border-style: solid;
+    height: 2px;
+    width: 505px
+
+}
+.tools{
+    font-family: "FontAwesome";
+    color:white;
+    margin-left: 490px;
+    -moz-transform: translateY(7px);
+    -o-transform: translateY(7px);
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
+}
+.list-unstyled li{
+    margin-top: 14px;
+}
+.size{
+    height: 600px
+}
+/*End Section Frequently*/
+/*Start Section Contact*/
+.contact::before {
+    width: 3px;
+    color: rgb( 232, 191, 93 );
+    background-color: rgb( 232, 191, 93 );
+    content:"";
+    height: 96px;
+    float: left;
+    margin-top: 28px;
+    -moz-transform: translateX(-15px);
+    -o-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+}
+.contact{
+    font-size: 28px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    line-height: 1.452; 
+    padding-top: 50px;  
+}
+
+.contact p{
+    font-size: 21px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 102, 102, 102 );
+    line-height: 1.476;
+}
+form{
+    display: inline-block;
+    margin-bottom: 150px;
+    padding: 0;
+    border-radius: 3px;
+    background-color: rgb( 255, 255, 255 );
+    box-shadow: 0px 12px 40px 0px rgb( 104, 86, 42 );
+    width: 870px;
+    height: 491px; 
+}
+input{
+    font-size: 14px;
+    font-family: "OpenSans italic";
+    color: rgb( 185, 185, 185 );
+    line-height: 1.214;
+    font-style: italic;
+    border-width: 0px 0px 3px 0px;
+    margin: 60px 0px -20px 92px;
+    opacity: 0.7;
+}
+.yellow {
+    background-color: rgb( 232, 191, 93 );
+    margin-left: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 17, 17, 17 );
+    float: none;
+    margin-left: 0;
+    margin: 50px 50px 50px 78px;
+    padding: 3px 20px 7px;
+}
+.map{
+    height: 385px;
+    width: 343px;
+    margin: 16px 0px 0px -85px;
+    box-shadow: -20px 20px rgb( 232, 191, 93 );
+}
+/*End Section Contact*/
+/*Start Footer*/
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: rgb( 17, 17, 17 );
+    padding-bottom: 0px 
+}
+socials{
+    margin: 18px 0 0;
+    padding: 0px;
+}
+.socials li{
+    display: inline-block;
+    margin: 0 20px 70px 0;
+    float: right;
+}
+.socials li a{
+    color: white;
+    font-size: 20px;
+}
+.last{
+    font-size: 16px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 181, 181, 181 );
+    line-height: 2.813;
+    margin-top: 30px;
+    float: left
+}
+.last span{
+    font-size: 20px;
+    color: white;
+}
+ul, ol {
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+/*End Footer*/
+
+
+
+  
